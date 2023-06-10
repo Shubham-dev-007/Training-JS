@@ -1,0 +1,52 @@
+a = 10
+10
+a
+10
+var a = 10
+undefined
+a
+10
+let a = 10
+undefined
+const a = 10
+VM349:1 Uncaught SyntaxError: Identifier 'a' has already been declared
+cont b = 10
+VM376:1 Uncaught SyntaxError: Unexpected identifier 'b'
+cont b = 20
+VM388:1 Uncaught SyntaxError: Unexpected identifier 'b'
+const z = 30
+undefined
+z
+30
+
+var obj = {
+    'name':'shubham',
+    'age':26,
+    'salary':123456
+}
+
+var arr = [
+    {
+        'name':'shubham',
+        'age':26,
+        'salary':123456 
+    },
+    {
+        'name':'rohit',
+        'age':25,
+        'salery':6423
+    },
+    {
+        'name':'dikshant',
+        'age':25,
+        'salery':6423
+    },
+
+]
+
+// 1. document.getElementById('elemntid') // here indexing not needed
+// 2. document.getElementsByClassName
+// 3. document.getElementsByTagName
+// 4. document.getElementsByName
+// 5. document.querySelector('.classname') // selects only first one (here indexing not needed)
+// 6. document.querySelectorAll('#idname') // selects all
