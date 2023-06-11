@@ -50,3 +50,115 @@ var arr = [
 // 4. document.getElementsByName
 // 5. document.querySelector('.classname') // selects only first one (here indexing not needed)
 // 6. document.querySelectorAll('#idname') // selects all
+
+var arr = [1,2,3,4,5];
+undefined
+arr.splice(1,3)
+(3) [2, 3, 4]0: 21: 32: 4length: 3[[Prototype]]: Array(0)
+arr
+(2) [1, 5]0: 11: 5length: 2[[Prototype]]: Array(0)
+var arr = [1,2,3,4,5];
+undefined
+arr.splice(1,3,6,7,8)
+(3) [2, 3, 4]
+arr
+(5) [1, 6, 7, 8, 5]0: 11: 62: 73: 84: 5length: 5[[Prototype]]: Array(0)
+var arr = [1,2,3,4,5];
+undefined
+arr.splice(1,3,6)
+(3) [2, 3, 4]
+arr
+(3) [1, 6, 5]0: 11: 62: 5length: 3[[Prototype]]: Array(0)
+arr.splice(1,3,7,8,9,10)
+(2) [6, 5]
+arr
+(5) [1, 7, 8, 9, 10]
+
+//function defination or declaration
+// function myFunction () {
+//     console.log('hello world! from function')
+// }
+
+// myFunction () 
+
+// function show(name){
+//     console.log('name is:'+ " " + name);
+// }
+
+// show('shubham');
+
+
+// function add (x,y) {
+//     var z = x+y
+//     return z
+// }
+
+// var result =  add(2,3)
+// console.log(result);
+
+
+var global = 10;
+// let local = 30
+console.log('global outside function',global);
+
+function demo(){
+    global = 20
+    // console.log('local inside function',local);
+    console.log('global inside function',global);
+}
+
+demo()
+console.log('global outside function',global);
+// console.log(local);
+
+// function calc(x,y){
+//     function add(){
+//         return x+y
+//     }
+//     function sub(){
+//         return x-y
+//     }
+//     function mult(){
+//         return x*y
+//     }
+// }
+
+a = 10
+10
+a >2 && a == 10
+true
+a === 10
+true
+a = '1'
+'1'
+a == 1
+true
+a === 1
+false
+a === '1'
+true
+typeof(a)
+'string'
+a = true
+true
+!a
+false
+a = false
+false
+!a
+true
+a = !a
+true
+!a
+false
+
+var a = 10
+undefined
+a
+10
+a<2|| a==10
+true
+a = true
+true
+a
+true

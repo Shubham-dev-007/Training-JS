@@ -11,7 +11,7 @@
 // document.getElementsByTagName('div')[0].children[0] = para;
 
 function myFunction() {
-    alert('he;loworlscdch')
+    alert('heloworlscdch')
 }
 
 
